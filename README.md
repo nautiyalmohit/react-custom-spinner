@@ -1,2 +1,2 @@
-# react-custom-spinner
+# react-custom-spinners
 Custom react spinners for React
