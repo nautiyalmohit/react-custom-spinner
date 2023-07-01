@@ -1,0 +1,16 @@
+{
+  "name": "react-custom-spinners",
+  "version": "1.0.0",
+  "description": "Custom react spinners for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "css", "spinners"],
+  "author": "Mohit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nautiyalmohit/react-custom-spinners/issues"
+  },
+  "homepage": "https://github.com/nautiyalmohit/react-custom-spinners"
+}
