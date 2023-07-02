@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
-    "lint:fix":"prettier-eslint \"**/*.js\" --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:fix": "prettier-eslint \"**/*.js\" --write",
+    "prepare": "husky install"
   },
+
+  
   "keywords": [
     "react",
     "css",
@@ -26,6 +28,9 @@
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.0",
+    "i": "^0.3.7",
+    "lint-staged": "^13.2.3",
     "prettier-eslint": "^15.0.1",
     "prettier-eslint-cli": "^7.1.0"
   }
