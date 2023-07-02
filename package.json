@@ -4,13 +4,29 @@
   "description": "Custom react spinners for React",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix":"prettier-eslint \"**/*.js\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "css", "spinners"],
+  "keywords": [
+    "react",
+    "css",
+    "spinners"
+  ],
   "author": "Mohit",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nautiyalmohit/react-custom-spinners/issues"
   },
-  "homepage": "https://github.com/nautiyalmohit/react-custom-spinners"
+  "homepage": "https://github.com/nautiyalmohit/react-custom-spinners",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0"
+  }
 }
